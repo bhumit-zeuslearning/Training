@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./LoginPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap");
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <img
+        class="headerimg"
+        src="./icons/logo used in header.svg"
+        alt="HeaderLogo"
+      />
+    </nav>
+    <div class="container">
+      <div class="topcontent">
+        <span id="back"><img src="./icons/back.svg" alt="" /></span>
+        <span id="title">Login in with Quantom </span>
+        <div class="maincontent">
+          <div class="radiogroup">
+            <span id="radio1content"
+              ><input type="radio" id="radio1" name="type" />District</span
+            >
+            <span id="radio2content"
+              ><input type="radio" id="radio2" name="type" />Independent
+              School</span
+            >
+          </div>
+          <div class="inputcontent">
+            <label for="state" id="inputlabel">state*</label><br />
+            <select name="state" id="inputselect">
+              <option value="Alabama" selected>Alabama</option>
+              <option value="maharastra">MH</option>
+              <option value="UP">UP</option>
+              <option value="MP">MP</option>
+            </select>
+
+            <label for="district" id="inputlabel">District*</label><br />
+            <select name="district" id="inputselect">
+              <option value="Alabama" selected>Alabama School District</option>
+              <option value="maharastra">MH</option>
+              <option value="UP">UP</option>
+              <option value="MP">MP</option>
+            </select>
+
+            <div class="inputtextcontainer">
+              <input
+                type="text"
+                class="inputtext"
+                placeholder="Username/Email ID*"
+              /><br />
+              <a href="#" class="forgot">FORGOT USERNAME?</a>
+            </div>
+            <input
+              type="text"
+              class="inputtext"
+              placeholder="Password*"
+            /><br />
+            <a href="#" class="forgot">FORGOT PASSWORD?</a><br />
+            <div class="remember">
+              <input type="checkbox" name="remember" id="rememberinput" />
+              <span id="remb">Remember me</span>
+            </div>
+            <input type="button" id="loginbtn" value="LOG IN">
+          </div>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div class="links">
+      <a href="#" id="link">About</a>
+      <span id="line"></span>
+      <a href="#" id="link">Contact Us</a>
+    </div>
+    <div class="footer">
+      <img src="./icons/logo used in footer.svg" alt="logo" id="footerimg">
+      <span id="fline"></span>
+      <div class="footercon"></div>
+      <span class="ftext">Copyright © 2020-2021</span>
+      <span class="ftext" id="zeus">Zeus Systems Pvt. Ltd.</span>
+      <span class="ftext">All rights reserved.</span>
+    </div>
+  </body>
+</html>
