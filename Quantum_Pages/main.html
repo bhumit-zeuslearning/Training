@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="" class="nav-logo"
+          ><img src="./icons/logo used in header.svg" alt=""
+        /></a>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="navmenu">
+          <li class="navitem"><a href="#" class="navlink">DASHOARD</a></li>
+          <li class="navitem"><a href="#" class="navlink">CONTENT</a></li>
+          <li class="navitem"><a href="#" class="navlink">USERS</a></li>
+          <li class="navitem"><a href="#" class="navlink">REPORTS</a></li>
+          <li class="navitem"><a href="#" class="navlink">ADMIN</a></li>
+          <li class="navitem">
+            <img src="./icons/alerts.svg" alt="" />
+          </li>
+          <li class="navitem">
+            <img src="./icons/announcements.svg" alt="" />
+          </li>
+          <li class="navitem">
+            <img src="./icons/announcements.svg" alt="" />
+          </li>
+        </ul>
+        <!-- <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> -->
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="contentselector">
+        <div class="courses">
+          <img src="./icons/courses.svg" alt="" id="courseicon" /><b>4</b>
+          <p>Courses</p>
+        </div>
+        <div class="classes">
+          <img src="./icons/classes.svg" alt="" id="classicon" /><b>4</b>
+          <p>Classes</p>
+        </div>
+      </div>
+      <div class="filtercontainer">
+        <p>Showing 4 of 4 courses</p>
+        <div class="filter">
+          <p>sort by:</p>
+          <select name="courses" id="courseselect">
+            <option value="option" disabled selected>Course Name</option>
+            <option value="abc">abc</option>
+            <option value="abc">abc</option>
+            <option value="abc">abc</option>
+          </select>
+          <img src="./icons/sort.svg" alt="sort" id="sort" />
+        </div>
+      </div>
+    </div>
+
+    <div class="cardscontainer">
+      <div class="cardcontainer">
+        <div class="cardheader">
+          <img src="./images/imageMask-1.svg" alt="" class="cardimg" />
+          <div class="cardcontent">
+            <p class="cardtitle">Accelerrate</p>
+            <span class="gray">Physics | Grade 7</span>
+            <span id="green">+2</span>
+            <p id="units" class="gray">
+              <b>4</b>Units <b>18</b>Lessions <b>24</b> Topics
+            </p>
+            <select name="class" id="cardselect">
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+            </select>
+            <p class="gray">50 students | 21-Jan-2020 - 21-Aug-2020</p>
+          </div>
+        </div>
+        <div class="cardfooter">
+          <img
+            src="./icons/preview.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+          <img src="./icons/manage course.svg" alt="" class="footerimg" />
+          <img src="./icons/grade submissions.svg" alt="" class="footerimg" />
+          <img
+            src="./icons/reports.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+        </div>
+      </div>
+      <div class="cardcontainer">
+        <div class="cardheader">
+          <img src="./images/imageMask-1.svg" alt="" class="cardimg" />
+          <div class="cardcontent">
+            <p class="cardtitle">Accelerrate</p>
+            <span class="gray">Physics | Grade 7</span>
+            <span id="green">+2</span>
+            <p id="units" class="gray">
+              <b>4</b>Units <b>18</b>Lessions <b>24</b> Topics
+            </p>
+            <select name="class" id="cardselect">
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+            </select>
+            <p class="gray">50 students | 21-Jan-2020 - 21-Aug-2020</p>
+          </div>
+        </div>
+        <div class="cardfooter">
+          <img
+            src="./icons/preview.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+          <img src="./icons/manage course.svg" alt="" class="footerimg" />
+          <img src="./icons/grade submissions.svg" alt="" class="footerimg" />
+          <img
+            src="./icons/reports.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+        </div>
+      </div>
+      <div class="cardcontainer">
+        <div class="cardheader">
+          <img src="./images/imageMask-1.svg" alt="" class="cardimg" />
+          <div class="cardcontent">
+            <p class="cardtitle">Accelerrate</p>
+            <span class="gray">Physics | Grade 7</span>
+            <span id="green">+2</span>
+            <p id="units" class="gray">
+              <b>4</b>Units <b>18</b>Lessions <b>24</b> Topics
+            </p>
+            <select name="class" id="cardselect">
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+            </select>
+            <p class="gray">50 students | 21-Jan-2020 - 21-Aug-2020</p>
+          </div>
+        </div>
+        <div class="cardfooter">
+          <img
+            src="./icons/preview.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+          <img src="./icons/manage course.svg" alt="" class="footerimg" />
+          <img src="./icons/grade submissions.svg" alt="" class="footerimg" />
+          <img
+            src="./icons/reports.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+        </div>
+      </div>
+      <div class="cardcontainer">
+        <div class="cardheader">
+          <img src="./images/imageMask-1.svg" alt="" class="cardimg" />
+          <div class="cardcontent">
+            <p class="cardtitle">Accelerrate</p>
+            <span class="gray">Physics | Grade 7</span>
+            <span id="green">+2</span>
+            <p id="units" class="gray">
+              <b>4</b>Units <b>18</b>Lessions <b>24</b> Topics
+            </p>
+            <select name="class" id="cardselect">
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+              <option value="Mr.Frank's Class B">Mr.Frank's Class B</option>
+            </select>
+            <p class="gray">50 students | 21-Jan-2020 - 21-Aug-2020</p>
+          </div>
+        </div>
+        <div class="cardfooter">
+          <img
+            src="./icons/preview.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+          <img src="./icons/manage course.svg" alt="" class="footerimg" />
+          <img src="./icons/grade submissions.svg" alt="" class="footerimg" />
+          <img
+            src="./icons/reports.svg"
+            style="width: 31px; height: 32px"
+            alt=""
+            class="footerimg"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="./icons/logo used in footer.svg" alt="logo" id="footerimg" />
+      <span id="fline"></span>
+      <div class="footercon"></div>
+      <span class="ftext">Copyright © 2020-2021</span>
+      <span class="ftext" id="zeus">Zeus Systems Pvt. Ltd.</span>
+      <span class="ftext">All rights reserved.</span>
+    </div>
+  </body>
+</html>

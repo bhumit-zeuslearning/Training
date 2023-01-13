@@ -1,0 +1,258 @@
+*,body{
+  margin:0px;
+  padding:0px;
+}
+  .header-logo{
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 100%;
+    padding:15px;
+    margin-left:15px;
+  }
+  
+body{
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction:row;
+    background-color: #25313f;
+    color:  #8DDC97;
+  }
+  
+  .nav-button {
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .nav-button:hover {
+    color: whitesmoke;
+    border-bottom: 2px solid white;
+  }
+  .nav-icon{
+    width: 21px;
+    height: 24px;
+    text-align: center;
+    padding: 7px;
+  }
+  .new-nav{
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .container{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: #8DDC97 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    height: 64px;
+    padding:5px;
+    align-items: center;
+  }
+  .aadon{
+    font-family: quicksand;
+    width: 50%;
+    border: none;
+    background: #8DDC97;
+    padding: 4px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aadon:focus{
+    width: 50%;
+    border: none;
+    background: #8DDC97;
+    border-bottom: 4px solid #222222;
+    padding: 4px 4px 0px 4px;
+    font-size: 16px;
+
+}
+
+  .imok{
+    font-size: 24px;
+    padding:5px;
+  }
+  .courses:hover,.classes:hover{
+    color: black;
+    border-bottom: 2px solid black;
+  }
+  @media  screen and (max-width: 768px){
+    .new-nav {
+      flex-direction: column;
+      display: none;
+    }
+    #toggle:checked + .new-nav{
+      display: flex;
+    }
+    .togglearea{
+      display: flex;
+    }
+  }
+  #toggle{
+    display: none;
+  }
+  .togglearea{
+    margin-left: auto;
+    background-color: #25313f;
+    border-bottom: 2px solid white;
+    color: white;
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .togglearea label{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .togglearea label span{
+    background-color: black;
+    height:1px;
+    width: 70%;
+    margin: 2px 0px;
+  }
+.sort-menu{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 1px solid #686868;
+}
+.soort{
+  margin-left: auto;
+  padding-top: 15px;
+}
+#cars{
+  border-width: 0 0 2px 0;
+  text-align: left;
+  font-size: 16px/20px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  background: #EEEEEE 0% 0% no-repeat padding-box;
+  flex-shrink: 1;
+}
+#one,#two,#three,#four{
+  width:476px;
+  height:246px;
+  background-color: white;
+  margin: 5px;
+}
+.total{
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit,500px);
+  grid-template-rows: repeat(2,246px);
+  justify-content: space-around ;
+}
+.mages{
+  width: 132px;
+  height:157px;
+  margin-top:25px;
+  margin-left:25px;
+}
+.box{
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  margin:24px;
+  width: 476px;
+  height: 246px;
+}
+.content{
+  display: flex;
+  margin:24px 1px 0 24px;
+}
+
+.content img{
+  width: 132px;
+  height:157px;
+  max-width: 132px;
+  border-radius: 2px;
+}
+
+.info{
+  margin-left: 16px;
+}
+
+.info h3{
+  margin-top:0;
+  margin-bottom: 7px;
+  font-size: 16px;
+  color: #222222;
+}
+
+.info p{
+  color:#666666;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.info select{
+  all:unset;
+  width: 210px;
+  height: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  background: url("./arrow-down.svg") no-repeat right;
+  padding-right: 54px;
+}
+.opt{
+  width:139 ;
+  height:20 ;
+  
+}
+
+.favourite img{
+  width: 20px;
+  height: 24px;
+  margin: 0;
+  
+}
+.cardbtns{
+  margin: 16px 24px 9px 24px;
+  padding: 16px 24px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid #EEEEEE;
+}
+.footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:15px;
+}
+
+.footer-bottom{
+  background-color: #00000029;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
