@@ -1,0 +1,60 @@
+$background: #25313f;
+$border_bottom: #31b9e4;
+$white:#FFFFFF;
+
+@mixin simple_flex($justifyContent,$alignItems){
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: transparent url("./header\ pattern\ image.png") 0% 0% no-repeat
+    padding-box;
+  background-color: $background;
+  background-size: cover;
+  border-bottom: 4px solid $border_bottom;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+.navmenu {
+    @include simple_flex(space-between,center);
+}
+.navitem {
+  margin-left: 3rem;
+}
+.navlink {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #3fd28b;
+  height: 100%;
+}
+
+.navlink:hover {
+  height: 100%;
+  color: $white;
+  border-bottom: 4px solid $white;
+}
+
+.navlogo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+}
